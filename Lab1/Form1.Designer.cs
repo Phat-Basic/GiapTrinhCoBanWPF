@@ -247,6 +247,7 @@
             this.textTinhTongTien.Name = "textTinhTongTien";
             this.textTinhTongTien.Size = new System.Drawing.Size(141, 20);
             this.textTinhTongTien.TabIndex = 9;
+            this.textTinhTongTien.TextChanged += new System.EventHandler(this.textTinhTongTien_TextChanged);
             // 
             // lblTongTien
             // 

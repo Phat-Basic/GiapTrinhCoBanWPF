@@ -39,8 +39,19 @@ namespace Lab1
 
         private void btnTinhTien_Click(object sender, EventArgs e)
         {
-
+            int s = 0;
+            if (chkTinHocA.Checked)
+                s += int.Parse(lblTienTHA.Text.Split('.')[0]);
+            if (chkTinHocB.Checked)
+                s += int.Parse(lblTienTHB.Text.Split('.')[0]);
+            if (chkTiengAnhA.Checked)
+                s += int.Parse(lblTienTAA.Text.Split('.')[0]);
+            if (chkTiengAnhB.Checked)
+                s += int.Parse(lblTienTAB.Text.Split('.')[0]);
+            this.textTinhTongTien.Text = s+".000 đồng";
         }
+
+
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
@@ -64,6 +75,11 @@ namespace Lab1
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textTinhTongTien_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
