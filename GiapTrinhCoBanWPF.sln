@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiapTrinhCoBanWPF", "GiapTrinhCoBanWPF\GiapTrinhCoBanWPF.csproj", "{F546FA80-82BF-446E-B39B-9419CA1E196C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab1\Lab2.csproj", "{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F546FA80-82BF-446E-B39B-9419CA1E196C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F546FA80-82BF-446E-B39B-9419CA1E196C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F546FA80-82BF-446E-B39B-9419CA1E196C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
