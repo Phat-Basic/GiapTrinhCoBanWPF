@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiapTrinhCoBanWPF", "GiapTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab1\Lab2.csproj", "{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2_VD2", "Lab2_VD2\Lab2_VD2.csproj", "{C099D7D6-324A-4250-8A92-14C6C2B62F07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB120B9-2AF6-47AC-ADBF-ABF9F62DA0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C099D7D6-324A-4250-8A92-14C6C2B62F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C099D7D6-324A-4250-8A92-14C6C2B62F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C099D7D6-324A-4250-8A92-14C6C2B62F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C099D7D6-324A-4250-8A92-14C6C2B62F07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
